@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+# Tajne i lokalna podešavanja
+.env
+# Editor i sistem
+.vscode/
+.DS_Store
