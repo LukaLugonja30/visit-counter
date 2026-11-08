@@ -26,8 +26,8 @@ Korisnik komunicira sa aplikacijom, a aplikacija kounicira sa redisom
 
 
 ## Pokretanje
-```bash
-git clone https://github.com/VAS-NALOG/visit-counter.git
+```
+git clone https://github.com/LukaLugonja30/visit-counter.git
 cd visit-counter
 cp .env.example .env
 docker compose up -d --build
@@ -40,7 +40,7 @@ podatke).
 
 
 ## Testovi i linter (lokalno)
-```bash
+```
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt -r requirements-dev.txt
 ruff check .
