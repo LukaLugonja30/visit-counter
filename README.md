@@ -52,7 +52,6 @@ pytest -v
 | Promenljiva | Značenje | Primer |
 |---|---|---|
 | `APP_PORT` | port aplikacije | `8080` |
-
 | `REDIS_HOST` | adresa Redis-a | `redis` |
 | `REDIS_PORT` | port Redis-a | `6379` |
 
